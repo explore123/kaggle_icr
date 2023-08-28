@@ -25,17 +25,17 @@ There are 617 data rows in the provided dataset and there are about 400 rows spl
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+.dataframe tbody tr th {
+    vertical-align: top;
+}
 
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe thead th {
+    text-align: right;
+}
 </style>
 <table border="1" class="dataframe" stype='max-width: 100%'>
   <thead>
