@@ -24,7 +24,6 @@ In Kaggle, in most data science competitions, data is split into 3 sets:
 There are 617 data rows in the provided dataset and there are about 400 rows split between the public test set and the private test set. Due to low amount of data problems with overfitting were expected. Following is a preview of data:
 
 <div>
-
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -38,7 +37,6 @@ There are 617 data rows in the provided dataset and there are about 400 rows spl
         text-align: right;
     }
 </style>
-
 <table border="1" class="dataframe" stype='max-width: 100%'>
   <thead>
     <tr style="text-align: right;">
@@ -118,9 +116,7 @@ There are 617 data rows in the provided dataset and there are about 400 rows spl
   </tbody>
 </table>
 <p>5 rows × 58 columns</p>
-
 </div>
-
 <br/>
 
 Additional data is provided as well, but it was not available for test data. So this data can not be used in a usual way. The additional data consist of:
@@ -131,7 +127,6 @@ Additional data is provided as well, but it was not available for test data. So 
   * Epsilon - The date the data for this subject was collected. All of the data in the test set was collected after the training set was collected.
 
 <div>
-
   <style scoped>
       .dataframe tbody tr th:only-of-type {
           vertical-align: middle;
@@ -145,7 +140,6 @@ Additional data is provided as well, but it was not available for test data. So 
           text-align: right;
       }
   </style>
-
   <table border="1" class="dataframe">
     <thead>
       <tr style="text-align: right;">
@@ -206,9 +200,7 @@ Additional data is provided as well, but it was not available for test data. So 
       </tr>
     </tbody>
   </table>
-
 </div>
-
 <br/>
 
 Alpha and Epsilon are the only columns I considered, because others demanded special consideration and tactics that I deemed unlikely to produce results. 
