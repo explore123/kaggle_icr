@@ -24,19 +24,6 @@ In Kaggle, in most data science competitions, data is split into 3 sets:
 There are 617 data rows in the provided dataset and there are about 400 rows split between the public test set and the private test set. Due to low amount of data problems with overfitting were expected. Following is a preview of data:
 
 <div>
-<style scoped>
-.dataframe tbody tr th:only-of-type {
-    vertical-align: middle;
-}
-
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-
-.dataframe thead th {
-    text-align: right;
-}
-</style>
 <table border="1" class="dataframe" stype='max-width: 100%'>
   <thead>
     <tr style="text-align: right;">
@@ -127,19 +114,6 @@ Additional data is provided as well, but it was not available for test data. So 
   * Epsilon - The date the data for this subject was collected. All of the data in the test set was collected after the training set was collected.
 
 <div>
-  <style scoped>
-      .dataframe tbody tr th:only-of-type {
-          vertical-align: middle;
-      }
-
-      .dataframe tbody tr th {
-          vertical-align: top;
-      }
-
-      .dataframe thead th {
-          text-align: right;
-      }
-  </style>
   <table border="1" class="dataframe">
     <thead>
       <tr style="text-align: right;">
